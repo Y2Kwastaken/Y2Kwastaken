@@ -1,6 +1,6 @@
 ```java
  private static final boolean cool = false;
- private static final boolean qualityProgrammer = falase;
+ private static final boolean qualityProgrammer = false;
  public static void main(String[] args){
   System.out.println(cool);
   System.out.println(qualityProgrammer);
