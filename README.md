@@ -1,6 +1,3 @@
-My friends told me I like coding because I'm depressed guess they were right 🤷‍♂️
-
-
 My Website: https://miles.sh
 
 
