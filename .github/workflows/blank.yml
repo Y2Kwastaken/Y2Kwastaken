@@ -41,7 +41,7 @@ jobs:
       - name: 🈷️ Most used languages - Most used (with details)
         uses: lowlighter/metrics@master
         with:
-          filename: metrics.languages.svg
+          filename: metrics.languages.svg@v3.22
           token: ${{ secrets.METRICS_INFO }}
           base: ""
           plugin_languages: yes
