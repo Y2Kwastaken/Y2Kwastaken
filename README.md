@@ -1,1 +1,1 @@
-![Metrics](/metrics-base.svg)
+![Metrics](/metrics.base.svg)
