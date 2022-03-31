@@ -38,16 +38,3 @@ jobs:
         with:
           filename: metrics.svg
           token: ${{ secrets.METRICS_INFO }}
-      - name: 🈷️ Most used languages - Most used (with details)
-        uses: lowlighter/metrics@master
-        with:
-          filename: metrics.languages.svg@v3.22
-          token: ${{ secrets.METRICS_INFO }}
-          base: ""
-          plugin_languages: yes
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 4
-          output_action: none
-          delay: 120
-          user: Y2Kwastaken
-          plugins_errors_fatal: yes
