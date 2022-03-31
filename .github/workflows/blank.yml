@@ -36,12 +36,12 @@ jobs:
       - name: Metrics embed
         uses: lowlighter/metrics@v3.22
         with:
-          filename: metrics.base.svg
+          filename: metrics.svg
           token: ${{ secrets.METRICS_INFO }}
       - name: 🈷️ Most used languages - Most used (with details)
         uses: lowlighter/metrics@master
         with:
-          filename: metrics.plugin.languages.details.svg
+          filename: metrics.languages.svg
           token: ${{ secrets.METRICS_INFO }}
           base: ""
           plugin_languages: yes
