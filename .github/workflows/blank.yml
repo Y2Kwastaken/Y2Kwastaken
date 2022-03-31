@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: Y2Kwastaken/metrics@master
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: '${{ secrets.METRICS_TOKEN }}'
