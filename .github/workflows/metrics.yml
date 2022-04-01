@@ -21,10 +21,9 @@ jobs:
           token: ${{ secrets.METRICS_INFO }}
 
           # Options
-          user: KaspianDev
+          user: Y2Kwastaken
           template: classic
           base: header, activity
-          config_timezone: Europe/Warsaw
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_secrets: yes
